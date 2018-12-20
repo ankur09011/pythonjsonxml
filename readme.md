@@ -18,8 +18,10 @@ pip3 install .
 
 ##### Usage With Positional Argument
 
+After cloning the project
+
 ```
-python -m src.cli_interface "examples/example.json" "examples/example.xml"
+python3 src/cli_interface.py "examples/example.json" "examples/example.xml"
 ```
 
 ##### Usage With Named Argument
