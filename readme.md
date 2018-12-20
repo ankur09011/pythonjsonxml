@@ -1,7 +1,9 @@
 ## Instructions 
 
-####About PythonJSONXML:
+###
+About PythonJSONXML:
 (Currently under development)
+
 A Simple Python package to convert JSON data to configurable XML format.
 
 ### How to use as package 
@@ -62,4 +64,4 @@ convertor.convertJSONtoXML(json_file='examples/example.json', xml_file='xamples/
 2. Add server mode to use as internal service
 3. ...
 
-Please suggest more features by opening
+Please suggest bugs/imporvements by opening issues https://github.com/ankur09011/pythonjsonxml/issues/new
