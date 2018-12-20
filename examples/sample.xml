@@ -1,0 +1,1 @@
+<number name="foo">1</number><null name="bar" /null><object name="baz"><number name="a">1</number><str name="b">3</str></object>
