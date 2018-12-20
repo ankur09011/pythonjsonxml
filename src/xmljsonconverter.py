@@ -5,7 +5,7 @@
 
 """
 import json
-from helper import convert, convert_none_to_xml
+from helper import convert
 
 
 class XMLJSONConverter():

@@ -27,7 +27,7 @@ python3 src/cli_interface.py "examples/example.json" "examples/example.xml"
 ##### Usage With Named Argument
 
 ```
-python -m src.cli_interface --jsonfile="examples/example.json --xmlfile="examples/example.xml"
+python src/cli_interface.py --jsonfile="examples/example.json --xmlfile="examples/example.xml"
 ```
 
 ### Inline in Code
