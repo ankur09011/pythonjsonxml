@@ -12,11 +12,11 @@ Clone the repo {repo_link} here, run following command (current compatibility fo
 pip3 install . 
 ```
 
-### Usage
+## Usage
 
 ### Command Line
 
-##### Usage With Positional Argument
+### Usage With Positional Argument
 
 After cloning the project
 
@@ -24,15 +24,23 @@ After cloning the project
 python3 src/cli_interface.py "examples/example.json" "examples/example.xml"
 ```
 
-##### Usage With Named Argument
+if no output file is defined, it is saved as "xml_out.xml"
+
+```
+python3 src/cli_interface.py "examples/example.json" "
+```
+
+
+### Usage With Named Argument
 
 ```
 python src/cli_interface.py --jsonfile="examples/example.json --xmlfile="examples/example.xml"
 ```
 
-### Inline in Code
 
-#### from JSON file 
+## Using Package
+
+### from JSON file 
 
 ```python
 

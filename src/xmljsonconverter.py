@@ -83,4 +83,6 @@ class XMLJSONConverter():
 
     output_file.close()
 
+    print("XML output is successfully saved to : {}".format(xml_file))
+
     return True
