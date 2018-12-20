@@ -172,14 +172,14 @@ def convert(obj, add_name=True, parent='root'):
         return convert_int_str_to_xml(item_name, obj.isoformat())
 
     if type(obj) == bool:
-        print("boolean")
+
         return convert_bool_to_xml(item_name, obj, add_name=add_name)
 
     if obj is None:
         return convert_none_to_xml(item_name, '', add_name=add_name)
 
     if isinstance(obj, dict):
-        print("dict")
+
         return convert_dict_to_xml(obj, ids, parent)
 
     if isinstance(obj, collections.Iterable):

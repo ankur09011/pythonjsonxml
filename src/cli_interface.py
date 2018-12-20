@@ -2,8 +2,8 @@ import argparse
 import json
 import sys
 
-from src.helper import XMLJSONConverterException
-from src.xmljsonconverter import XMLJSONConverter
+from helper import XMLJSONConverterException
+from xmljsonconverter import XMLJSONConverter
 
 
 
@@ -40,8 +40,6 @@ def main(arguments=None):
             input_filename = named_arguments.jsonfile
             if named_arguments.xmlfile:
                 output_filename = named_arguments.xmlfile
-
-        print(input_filename)
 
     except Exception as e:
 
